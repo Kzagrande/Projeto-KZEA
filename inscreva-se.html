@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+        <head>
+
+            <meta charset="UTF-8">
+            <title>Inscreva-se</title>
+            <link rel="stylesheet" href="reset.css">
+            <link rel="stylesheet" href="inscreva-se.css">
+
+        </head>
+
+    <body>
+        <header>
+            <div class="caixalogo">
+                <h1><img class="tresh" src="logo.png" alt="Logo do tresh"></h1>
+
+                <nav> 
+                    <ul>
+                        <li><a href="Home.html"> Home</a></li>
+                        <li><a href="redes_sociais.html" >Nossas Redes Sociais </a></li>
+                        <li><a href="quem_somos.html">Quem Somos </a></li>
+                        <li><a href="">Inscreva-se</a></li>
+                    </ul>
+                </nav>
+            
+             </div>
+
+        </header>
+
+        <main clas="principal">
+
+            <form class="questionario">
+
+                <label for="nomesobrenome" > Nome e Sobrenome </label>
+                <input id="nomesobrenome" type="text" class="input-padrao" required>
+
+                <label for="email"> E-mail </label>
+                <input id="email" type="email" class="input-padrao" required placeholder=" ninjadastrevas@domínio.com">
+
+                <label for="telefone"> Telefone</label>
+                <input for="telefone" type="tel" class="input-padrao" required placeholder=" (XX) XXXX-XXXXX">
+
+                <label for="mensagem"> Mensagem(Opcional) </label>                               
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" ></textarea>
+
+            <fieldset>
+
+                <legend> Como prefere nosso contato ?</p>
+
+                <label for="radio-email"> <input type="radio" name="contato" value="e-mail"  id="radio-email"> E-mail </label>
+                
+                <label for="radio-telefone"> <input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone </label>
+                
+                <label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked > WhatsApp </label>
+                
+
+            </fieldset>  
+            
+            <fieldset>
+
+                <legend> Qual horário melhor para contato ? </p>
+
+                <select> 
+
+                    <option> Manhã </option>
+                    <option> Tarde </option>
+                    <option> Noite </option>
+
+                </select>
+
+
+            </fieldset>
+
+                <label><input class="checkbox" type="checkbox" checked > Gostaria de receber nossas novidades poe e-mail ? </label>
+
+                <input type="submit" value="Enviar Formulário" class="enviar">
+
+            </form>
+
+            <table>
+                <thead>
+                
+                    <tr>
+                        <th> Dia </th>
+                        <th> Horário </th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td> Sexta </td>
+                        <td> 18 ~ 24 </td>
+                    </tr>
+
+                    <tr>
+                        <td> Sábado </td>
+                        <td> 18 ~24 </td>
+                    </tr>
+
+                    <tr>
+                        <td> Domingo </td>
+                        <td> 18 ~ 24 </td>
+                    </tr>
+                </tbody>
+
+
+
+
+            </table>
+           
+        </main>
+
+
+
+        <footer>
+            <img class="logo-rodape" src="logo-rodape.png" alt="logo do lol" >
+            <p class="copyright"> &copy; Copyright Kzagrande 2021 </p>
+            
+
+        </footer>
+
+    </body>
+
+
+
+</html>
+
+
+
+        

@@ -1,0 +1,131 @@
+body{
+    font-family: 'Architects Daughter', cursive;
+}
+
+header{
+    background:linear-gradient(#888888,rgb(94, 235, 223), black );
+    padding: 20px;
+}
+
+
+.tresh{
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    position: relative;
+    right: 200px;
+  
+   
+}
+
+.caixalogo{
+    position: relative;
+    width: 1550px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    left: 720px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 25px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    
+    
+}
+
+nav a:hover{
+    color: rgb(94, 235, 223);
+    text-decoration: underline;
+
+
+}
+
+.principal{
+    background-color: #FEFEFE;
+}
+
+
+.redesSociais{
+    width: 1500px;
+    margin: 1%  auto;
+    text-align: center;
+     
+}
+
+
+.redesSociais li{
+    
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 2px 2px ;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 4px solid #00000000;
+    border-radius: 10px;
+    transition: 1s all;
+  
+}
+
+
+.redesSociais li:hover{
+    transform:  scale(1.3);
+   
+   
+}
+
+.redesSociais li:active{
+    border-color: orange;
+    
+    
+}
+
+
+.tamanhoimagem{
+    width:  200px;
+    height: 250px;
+}
+
+
+.redesSociais li:hover h2 {
+    font-size: 30px;
+}
+
+
+.redesSociais h2{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+
+.logo-rodape{
+    width: 79px;
+    height: 87px;
+}
+
+footer{
+background: url(fundo-rodape.jpg);
+text-align: center;
+padding: 30px 0;
+}    
+
+.copyright{
+
+font-size: 16px;
+margin: 20px 0 0;
+
+}
+
