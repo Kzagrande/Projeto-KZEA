@@ -1,0 +1,176 @@
+body{
+    font-family: 'Architects Daughter', cursive;
+}
+
+header{
+    background:linear-gradient(#888888,rgb(94, 235, 223), black );
+    padding: 20px;
+}
+
+
+.tresh{
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+    position: relative;
+    right: 200px;
+  
+   
+}
+
+.caixalogo{
+    position: relative;
+    width: 1500px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    left: 720px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 25px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    
+    
+}
+
+nav a:hover{
+    color: rgb(94, 235, 223);
+    text-decoration: underline;
+
+}
+
+.principal{
+    background-color: #FEFEFE;
+}
+
+h2{
+    text-align: center;
+    font-size: 2em ;
+    font-style:italic;
+    font-weight: bold;
+    margin: 1em auto;
+}
+
+
+.caixa_equipe{
+    position: relative;
+    width: 1500px;
+    margin: 20px auto ;
+
+
+}
+.imagem_equipe{
+    display: inline block;
+    position: relative;
+    width: 50%;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+    
+
+
+}
+
+.paragrafos{
+    position: absolute ;
+    width: 700px;
+    height: 500px;
+    margin: 20px 0 20px 100px ;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+
+}   
+
+
+
+.paragrafos p{
+    display: inline-block;
+    position: relative;
+    text-align:center;
+    margin: 20px ;
+    padding: 10px;
+    font-size: 25px;
+    font-style: initial ;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+
+
+}
+   
+
+.paragrafos p:before{
+    content: " ➦ ";
+    
+}
+
+
+.paragrafos strong{
+    color:rgb(94, 235, 223);
+    font-size:xx-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.AondeEstamos{
+    
+    width: auto;
+    
+    
+    
+}
+
+.AondeEstamos p{
+    font-size: 25px;
+    font-style: initial ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 2em;
+    
+}
+
+
+.AondeEstamos iframe{
+    
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  
+
+}
+
+#video{
+    margin: 2em auto;
+    border:solid black 4px;
+
+}
+
+
+.logo-rodape{
+    width: 79px;
+    height: 87px;
+}
+
+footer{
+background: url(fundo-rodape.jpg);
+text-align: center;
+padding: 30px 0;
+}    
+
+.copyright{
+
+font-size: 16px;
+margin: 20px 0 0;
+
+}
