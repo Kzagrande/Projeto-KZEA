@@ -131,7 +131,8 @@ nav a:hover{
 }
 
 footer{
-background: url(fundo-rodape.jpg);
+background:linear-gradient(#acacac, white);
+box-shadow: 10px 5px 5px black ;
 text-align: center;
 padding: 30px 0;
 }    
